@@ -1,6 +1,6 @@
 Name:           perl-String-ShellQuote
 Version:        1.04
-Release:        10%{?dist}
+Release:        9%{?dist}
 Summary:        Perl module for quoting strings for passing through the shell
 # shell-quote:  GPLv2+
 # rest:         GPL+ or Artistic
@@ -59,9 +59,6 @@ rm -rf $RPM_BUILD_ROOT
 %{_mandir}/man3/String::ShellQuote.3*
 
 %changelog
-* Fri Dec 27 2013 Daniel Mach <dmach@redhat.com> - 1.04-10
-- Mass rebuild 2013-12-27
-
 * Tue Jul 30 2013 Petr Pisar <ppisar@redhat.com> - 1.04-9
 - Add GPLv2+ to the license declaration due to shell-quote(1)
 - Specify all dependencies
